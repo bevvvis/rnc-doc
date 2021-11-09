@@ -1,0 +1,2690 @@
+{
+	"id": 0,
+	"name": "@acflow/rnc",
+	"kind": 1,
+	"flags": {},
+	"originalName": "",
+	"children": [
+		{
+			"id": 1,
+			"name": "index",
+			"kind": 2,
+			"kindString": "Module",
+			"flags": {},
+			"children": [
+				{
+					"id": 6,
+					"name": "default",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 7,
+							"name": "__type",
+							"kind": 65536,
+							"kindString": "Type literal",
+							"flags": {},
+							"children": [
+								{
+									"id": 8,
+									"name": "components",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"name": "__module"
+									}
+								},
+								{
+									"id": 9,
+									"name": "contexts",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"name": "__module"
+									}
+								},
+								{
+									"id": 10,
+									"name": "hooks",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"name": "__module"
+									}
+								},
+								{
+									"id": 11,
+									"name": "managers",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"name": "__module"
+									}
+								},
+								{
+									"id": 12,
+									"name": "models",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"name": "__module"
+									}
+								},
+								{
+									"id": 13,
+									"name": "resources",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"name": "__module"
+									}
+								},
+								{
+									"id": 17,
+									"name": "screens",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {},
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 18,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {},
+											"children": [
+												{
+													"id": 19,
+													"name": "registerScreen",
+													"kind": 1024,
+													"kindString": "Property",
+													"flags": {},
+													"type": {
+														"type": "reflection",
+														"declaration": {
+															"id": 20,
+															"name": "__type",
+															"kind": 65536,
+															"kindString": "Type literal",
+															"flags": {},
+															"signatures": [
+																{
+																	"id": 21,
+																	"name": "__type",
+																	"kind": 4096,
+																	"kindString": "Call signature",
+																	"flags": {},
+																	"parameters": [
+																		{
+																			"id": 22,
+																			"name": "key",
+																			"kind": 32768,
+																			"kindString": "Parameter",
+																			"flags": {},
+																			"type": {
+																				"type": "intrinsic",
+																				"name": "string"
+																			}
+																		},
+																		{
+																			"id": 23,
+																			"name": "screen",
+																			"kind": 32768,
+																			"kindString": "Parameter",
+																			"flags": {},
+																			"type": {
+																				"type": "reference",
+																				"typeArguments": [
+																					{
+																						"type": "reflection",
+																						"declaration": {
+																							"id": 24,
+																							"name": "__type",
+																							"kind": 65536,
+																							"kindString": "Type literal",
+																							"flags": {},
+																							"indexSignature": {
+																								"id": 25,
+																								"name": "__index",
+																								"kind": 8192,
+																								"kindString": "Index signature",
+																								"flags": {},
+																								"parameters": [
+																									{
+																										"id": 26,
+																										"name": "key",
+																										"kind": 32768,
+																										"flags": {},
+																										"type": {
+																											"type": "intrinsic",
+																											"name": "string"
+																										}
+																									}
+																								],
+																								"type": {
+																									"type": "intrinsic",
+																									"name": "any"
+																								}
+																							}
+																						}
+																					}
+																				],
+																				"name": "IScreen"
+																			}
+																		}
+																	],
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "void"
+																	}
+																}
+															]
+														}
+													}
+												}
+											],
+											"groups": [
+												{
+													"title": "Properties",
+													"kind": 1024,
+													"children": [
+														19
+													]
+												}
+											]
+										}
+									},
+									"defaultValue": "..."
+								},
+								{
+									"id": 14,
+									"name": "shortcut",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"name": "__module"
+									}
+								},
+								{
+									"id": 15,
+									"name": "types",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"name": "__module"
+									}
+								},
+								{
+									"id": 16,
+									"name": "utils",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"id": 3,
+										"name": "__module"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"kind": 1024,
+									"children": [
+										8,
+										9,
+										10,
+										11,
+										12,
+										13,
+										17,
+										14,
+										15,
+										16
+									]
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 2,
+					"name": "app",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {},
+					"comment": {
+						"tags": [
+							{
+								"tag": "beta",
+								"text": "\n"
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "src/index.ts",
+							"line": 12,
+							"character": 13
+						}
+					],
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "unknown"
+							}
+						],
+						"name": "ComponentType"
+					},
+					"defaultValue": "App"
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						6
+					]
+				},
+				{
+					"title": "Variables",
+					"kind": 32,
+					"children": [
+						2
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "src/index.ts",
+					"line": 5,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 3,
+			"name": "utils",
+			"kind": 2,
+			"kindString": "Module",
+			"flags": {},
+			"children": [
+				{
+					"id": 27,
+					"name": "actionSheet",
+					"kind": 4,
+					"kindString": "Namespace",
+					"flags": {},
+					"children": [
+						{
+							"id": 28,
+							"name": "ActionSheetProviderContainer",
+							"kind": 64,
+							"kindString": "Function",
+							"flags": {
+								"isConst": true
+							},
+							"sources": [
+								{
+									"fileName": "src/utils/actionSheet.tsx",
+									"line": 22,
+									"character": 13
+								}
+							],
+							"signatures": [
+								{
+									"id": 29,
+									"name": "ActionSheetProviderContainer",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 30,
+											"name": "props",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"name": "Props"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "Element"
+									}
+								}
+							]
+						},
+						{
+							"id": 31,
+							"name": "showActionSheet",
+							"kind": 64,
+							"kindString": "Function",
+							"flags": {
+								"isConst": true
+							},
+							"sources": [
+								{
+									"fileName": "src/utils/actionSheet.tsx",
+									"line": 50,
+									"character": 13
+								}
+							],
+							"signatures": [
+								{
+									"id": 32,
+									"name": "showActionSheet",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 33,
+											"name": "options",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"name": "IActionSheetOptions"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Functions",
+							"kind": 64,
+							"children": [
+								28,
+								31
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/utils/actionSheet.tsx",
+							"line": 1,
+							"character": 0
+						}
+					]
+				},
+				{
+					"id": 34,
+					"name": "commonStyle",
+					"kind": 4,
+					"kindString": "Namespace",
+					"flags": {},
+					"children": [
+						{
+							"id": 35,
+							"name": "navigation",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "src/utils/commonStyle.ts",
+									"line": 4,
+									"character": 13
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 36,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {},
+									"children": [
+										{
+											"id": 37,
+											"name": "buttonContainer",
+											"kind": 1024,
+											"kindString": "Property",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"name": "Style"
+											},
+											"defaultValue": "..."
+										},
+										{
+											"id": 38,
+											"name": "icon",
+											"kind": 1024,
+											"kindString": "Property",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"name": "Style"
+											},
+											"defaultValue": "..."
+										}
+									],
+									"groups": [
+										{
+											"title": "Properties",
+											"kind": 1024,
+											"children": [
+												37,
+												38
+											]
+										}
+									]
+								}
+							},
+							"defaultValue": "..."
+						}
+					],
+					"groups": [
+						{
+							"title": "Variables",
+							"kind": 32,
+							"children": [
+								35
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/utils/commonStyle.ts",
+							"line": 1,
+							"character": 0
+						}
+					]
+				},
+				{
+					"id": 39,
+					"name": "editor",
+					"kind": 4,
+					"kindString": "Namespace",
+					"flags": {},
+					"children": [
+						{
+							"id": 50,
+							"name": "default",
+							"kind": 16777216,
+							"kindString": "Reference",
+							"flags": {},
+							"target": 44
+						},
+						{
+							"id": 40,
+							"name": "IOpenOptions",
+							"kind": 256,
+							"kindString": "Interface",
+							"flags": {},
+							"children": [
+								{
+									"id": 42,
+									"name": "mediaKey",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "src/utils/editor.ts",
+											"line": 11,
+											"character": 2
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 41,
+									"name": "mediaType",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "src/utils/editor.ts",
+											"line": 10,
+											"character": 2
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "EMediaItemType"
+									}
+								},
+								{
+									"id": 43,
+									"name": "url",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "src/utils/editor.ts",
+											"line": 12,
+											"character": 2
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"kind": 1024,
+									"children": [
+										42,
+										41,
+										43
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "src/utils/editor.ts",
+									"line": 9,
+									"character": 17
+								}
+							]
+						},
+						{
+							"id": 44,
+							"name": "editor",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "src/utils/editor.ts",
+									"line": 15,
+									"character": 13
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 45,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {},
+									"children": [
+										{
+											"id": 46,
+											"name": "open",
+											"kind": 1024,
+											"kindString": "Property",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 47,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"signatures": [
+														{
+															"id": 48,
+															"name": "__type",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {},
+															"parameters": [
+																{
+																	"id": 49,
+																	"name": "options",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {},
+																	"type": {
+																		"type": "reference",
+																		"id": 40,
+																		"name": "IOpenOptions"
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													]
+												}
+											},
+											"defaultValue": "..."
+										}
+									],
+									"groups": [
+										{
+											"title": "Properties",
+											"kind": 1024,
+											"children": [
+												46
+											]
+										}
+									]
+								}
+							},
+							"defaultValue": "..."
+						}
+					],
+					"groups": [
+						{
+							"title": "References",
+							"kind": 16777216,
+							"children": [
+								50
+							]
+						},
+						{
+							"title": "Interfaces",
+							"kind": 256,
+							"children": [
+								40
+							]
+						},
+						{
+							"title": "Variables",
+							"kind": 32,
+							"children": [
+								44
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/utils/editor.ts",
+							"line": 1,
+							"character": 0
+						}
+					]
+				},
+				{
+					"id": 51,
+					"name": "fs",
+					"kind": 4,
+					"kindString": "Namespace",
+					"flags": {},
+					"children": [
+						{
+							"id": 52,
+							"name": "copyDir",
+							"kind": 64,
+							"kindString": "Function",
+							"flags": {
+								"isConst": true
+							},
+							"sources": [
+								{
+									"fileName": "src/utils/fs.ts",
+									"line": 5,
+									"character": 13
+								}
+							],
+							"signatures": [
+								{
+									"id": 53,
+									"name": "copyDir",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 54,
+											"name": "baseFromPath",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 55,
+											"name": "baseDestPath",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 56,
+											"name": "fromPath",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											},
+											"defaultValue": "''"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "void"
+											}
+										],
+										"name": "Promise"
+									}
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Functions",
+							"kind": 64,
+							"children": [
+								52
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/utils/fs.ts",
+							"line": 1,
+							"character": 0
+						}
+					]
+				},
+				{
+					"id": 57,
+					"name": "getRouteParam",
+					"kind": 4,
+					"kindString": "Namespace",
+					"flags": {},
+					"children": [
+						{
+							"id": 62,
+							"name": "default",
+							"kind": 16777216,
+							"kindString": "Reference",
+							"flags": {},
+							"target": 58
+						},
+						{
+							"id": 58,
+							"name": "useGetRouteParam",
+							"kind": 64,
+							"kindString": "Function",
+							"flags": {
+								"isConst": true
+							},
+							"sources": [
+								{
+									"fileName": "src/utils/getRouteParam.ts",
+									"line": 4,
+									"character": 13
+								}
+							],
+							"signatures": [
+								{
+									"id": 59,
+									"name": "useGetRouteParam",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"typeParameter": [
+										{
+											"id": 60,
+											"name": "T",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {},
+											"type": {
+												"type": "typeOperator",
+												"operator": "keyof",
+												"target": {
+													"type": "reference",
+													"name": "RootStackParamList"
+												}
+											}
+										}
+									],
+									"parameters": [
+										{
+											"id": 61,
+											"name": "screenName",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"id": 60,
+												"name": "T"
+											}
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "undefined"
+											},
+											{
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "indexedAccess",
+														"indexType": {
+															"type": "reference",
+															"id": 60,
+															"name": "T"
+														},
+														"objectType": {
+															"type": "reference",
+															"name": "RootStackParamList"
+														}
+													}
+												],
+												"name": "Readonly"
+											}
+										]
+									}
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "References",
+							"kind": 16777216,
+							"children": [
+								62
+							]
+						},
+						{
+							"title": "Functions",
+							"kind": 64,
+							"children": [
+								58
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/utils/getRouteParam.ts",
+							"line": 1,
+							"character": 0
+						}
+					]
+				},
+				{
+					"id": 63,
+					"name": "nav",
+					"kind": 4,
+					"kindString": "Namespace",
+					"flags": {},
+					"children": [
+						{
+							"id": 83,
+							"name": "screenOptions",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "src/utils/nav.ts",
+									"line": 52,
+									"character": 13
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 84,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {},
+									"children": [
+										{
+											"id": 85,
+											"name": "hideHeaderShadow",
+											"kind": 1024,
+											"kindString": "Property",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 86,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"children": [
+														{
+															"id": 87,
+															"name": "headerShadowVisible",
+															"kind": 1024,
+															"kindString": "Property",
+															"flags": {},
+															"type": {
+																"type": "intrinsic",
+																"name": "boolean"
+															},
+															"defaultValue": "false"
+														}
+													],
+													"groups": [
+														{
+															"title": "Properties",
+															"kind": 1024,
+															"children": [
+																87
+															]
+														}
+													]
+												}
+											},
+											"defaultValue": "..."
+										}
+									],
+									"groups": [
+										{
+											"title": "Properties",
+											"kind": 1024,
+											"children": [
+												85
+											]
+										}
+									]
+								}
+							},
+							"defaultValue": "..."
+						},
+						{
+							"id": 69,
+							"name": "_push",
+							"kind": 64,
+							"kindString": "Function",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "src/utils/nav.ts",
+									"line": 17,
+									"character": 16
+								}
+							],
+							"signatures": [
+								{
+									"id": 70,
+									"name": "_push",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"typeParameter": [
+										{
+											"id": 71,
+											"name": "T",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {},
+											"type": {
+												"type": "typeOperator",
+												"operator": "keyof",
+												"target": {
+													"type": "reference",
+													"name": "RootStackParamList"
+												}
+											}
+										}
+									],
+									"parameters": [
+										{
+											"id": 72,
+											"name": "name",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"id": 71,
+												"name": "T"
+											}
+										},
+										{
+											"id": 73,
+											"name": "params",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isOptional": true
+											},
+											"type": {
+												"type": "indexedAccess",
+												"indexType": {
+													"type": "reference",
+													"id": 71,
+													"name": "T"
+												},
+												"objectType": {
+													"type": "reference",
+													"name": "RootStackParamList"
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						},
+						{
+							"id": 64,
+							"name": "navigate",
+							"kind": 64,
+							"kindString": "Function",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "src/utils/nav.ts",
+									"line": 7,
+									"character": 16
+								}
+							],
+							"signatures": [
+								{
+									"id": 65,
+									"name": "navigate",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"typeParameter": [
+										{
+											"id": 66,
+											"name": "T",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {},
+											"type": {
+												"type": "typeOperator",
+												"operator": "keyof",
+												"target": {
+													"type": "reference",
+													"name": "RootStackParamList"
+												}
+											}
+										}
+									],
+									"parameters": [
+										{
+											"id": 67,
+											"name": "name",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"id": 66,
+												"name": "T"
+											}
+										},
+										{
+											"id": 68,
+											"name": "params",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isOptional": true
+											},
+											"type": {
+												"type": "indexedAccess",
+												"indexType": {
+													"type": "reference",
+													"id": 66,
+													"name": "T"
+												},
+												"objectType": {
+													"type": "reference",
+													"name": "RootStackParamList"
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						},
+						{
+							"id": 81,
+							"name": "navigateToHomeScreen",
+							"kind": 64,
+							"kindString": "Function",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "src/utils/nav.ts",
+									"line": 48,
+									"character": 16
+								}
+							],
+							"signatures": [
+								{
+									"id": 82,
+									"name": "navigateToHomeScreen",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						},
+						{
+							"id": 79,
+							"name": "navigationGoBack",
+							"kind": 64,
+							"kindString": "Function",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "src/utils/nav.ts",
+									"line": 42,
+									"character": 16
+								}
+							],
+							"signatures": [
+								{
+									"id": 80,
+									"name": "navigationGoBack",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						},
+						{
+							"id": 74,
+							"name": "push",
+							"kind": 64,
+							"kindString": "Function",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "src/utils/nav.ts",
+									"line": 27,
+									"character": 16
+								}
+							],
+							"signatures": [
+								{
+									"id": 75,
+									"name": "push",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"typeParameter": [
+										{
+											"id": 76,
+											"name": "T",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {},
+											"type": {
+												"type": "typeOperator",
+												"operator": "keyof",
+												"target": {
+													"type": "reference",
+													"name": "RootStackParamList"
+												}
+											}
+										}
+									],
+									"parameters": [
+										{
+											"id": 77,
+											"name": "name",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"id": 76,
+												"name": "T"
+											}
+										},
+										{
+											"id": 78,
+											"name": "params",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isOptional": true
+											},
+											"type": {
+												"type": "indexedAccess",
+												"indexType": {
+													"type": "reference",
+													"id": 76,
+													"name": "T"
+												},
+												"objectType": {
+													"type": "reference",
+													"name": "RootStackParamList"
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Variables",
+							"kind": 32,
+							"children": [
+								83
+							]
+						},
+						{
+							"title": "Functions",
+							"kind": 64,
+							"children": [
+								69,
+								64,
+								81,
+								79,
+								74
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/utils/nav.ts",
+							"line": 4,
+							"character": 0
+						}
+					]
+				},
+				{
+					"id": 88,
+					"name": "notion",
+					"kind": 4,
+					"kindString": "Namespace",
+					"flags": {},
+					"children": [
+						{
+							"id": 89,
+							"name": "getList",
+							"kind": 64,
+							"kindString": "Function",
+							"flags": {
+								"isConst": true
+							},
+							"sources": [
+								{
+									"fileName": "src/utils/notion.ts",
+									"line": 9,
+									"character": 13
+								}
+							],
+							"signatures": [
+								{
+									"id": 90,
+									"name": "getList",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 91,
+											"name": "databaseId",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "array",
+												"elementType": {
+													"type": "reflection",
+													"declaration": {
+														"id": 92,
+														"name": "__type",
+														"kind": 65536,
+														"kindString": "Type literal",
+														"flags": {},
+														"indexSignature": {
+															"id": 93,
+															"name": "__index",
+															"kind": 8192,
+															"kindString": "Index signature",
+															"flags": {},
+															"parameters": [
+																{
+																	"id": 94,
+																	"name": "key",
+																	"kind": 32768,
+																	"flags": {},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "string"
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "any"
+															}
+														}
+													}
+												}
+											}
+										],
+										"name": "Promise"
+									}
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Functions",
+							"kind": 64,
+							"children": [
+								89
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/utils/notion.ts",
+							"line": 1,
+							"character": 0
+						}
+					]
+				},
+				{
+					"id": 95,
+					"name": "platform",
+					"kind": 4,
+					"kindString": "Namespace",
+					"flags": {},
+					"children": [
+						{
+							"id": 97,
+							"name": "Android",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {},
+							"comment": {
+								"shortText": "Determine whether the current running platform is Android"
+							},
+							"sources": [
+								{
+									"fileName": "src/utils/platform.ts",
+									"line": 11,
+									"character": 13
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							},
+							"defaultValue": "..."
+						},
+						{
+							"id": 96,
+							"name": "iOS",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {},
+							"comment": {
+								"shortText": "Determine whether the current running platform is iOS"
+							},
+							"sources": [
+								{
+									"fileName": "src/utils/platform.ts",
+									"line": 6,
+									"character": 13
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							},
+							"defaultValue": "..."
+						}
+					],
+					"groups": [
+						{
+							"title": "Variables",
+							"kind": 32,
+							"children": [
+								97,
+								96
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/utils/platform.ts",
+							"line": 1,
+							"character": 0
+						}
+					]
+				},
+				{
+					"id": 145,
+					"name": "screen",
+					"kind": 4,
+					"kindString": "Namespace",
+					"flags": {},
+					"children": [
+						{
+							"id": 146,
+							"name": "IScreenItem",
+							"kind": 4194304,
+							"kindString": "Type alias",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "src/utils/screen.ts",
+									"line": 3,
+									"character": 12
+								}
+							],
+							"type": {
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										],
+										"name": "Record"
+									}
+								],
+								"name": "IScreen"
+							}
+						},
+						{
+							"id": 147,
+							"name": "TScreens",
+							"kind": 4194304,
+							"kindString": "Type alias",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "src/utils/screen.ts",
+									"line": 4,
+									"character": 12
+								}
+							],
+							"type": {
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "string"
+									},
+									{
+										"type": "reference",
+										"id": 146,
+										"name": "IScreenItem"
+									}
+								],
+								"name": "Map"
+							}
+						},
+						{
+							"id": 154,
+							"name": "getScreenByKey",
+							"kind": 64,
+							"kindString": "Function",
+							"flags": {
+								"isConst": true
+							},
+							"sources": [
+								{
+									"fileName": "src/utils/screen.ts",
+									"line": 28,
+									"character": 13
+								}
+							],
+							"signatures": [
+								{
+									"id": 155,
+									"name": "getScreenByKey",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "get target screen component by key",
+										"returns": "TScreens\n"
+									},
+									"parameters": [
+										{
+											"id": 156,
+											"name": "key",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"comment": {
+												"shortText": "screen key defined in registerScreen"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "undefined"
+											},
+											{
+												"type": "reference",
+												"id": 146,
+												"name": "IScreenItem"
+											}
+										]
+									}
+								}
+							]
+						},
+						{
+							"id": 152,
+							"name": "getScreens",
+							"kind": 64,
+							"kindString": "Function",
+							"flags": {
+								"isConst": true
+							},
+							"sources": [
+								{
+									"fileName": "src/utils/screen.ts",
+									"line": 21,
+									"character": 13
+								}
+							],
+							"signatures": [
+								{
+									"id": 153,
+									"name": "getScreens",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "get current screen list in application run time",
+										"returns": "current screen list\n"
+									},
+									"type": {
+										"type": "reference",
+										"id": 147,
+										"name": "TScreens"
+									}
+								}
+							]
+						},
+						{
+							"id": 148,
+							"name": "registerScreen",
+							"kind": 64,
+							"kindString": "Function",
+							"flags": {
+								"isConst": true
+							},
+							"sources": [
+								{
+									"fileName": "src/utils/screen.ts",
+									"line": 7,
+									"character": 13
+								}
+							],
+							"signatures": [
+								{
+									"id": 149,
+									"name": "registerScreen",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 150,
+											"name": "key",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 151,
+											"name": "screen",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"id": 146,
+												"name": "IScreenItem"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						},
+						{
+							"id": 157,
+							"name": "setupInitialRoute",
+							"kind": 64,
+							"kindString": "Function",
+							"flags": {
+								"isConst": true
+							},
+							"sources": [
+								{
+									"fileName": "src/utils/screen.ts",
+									"line": 37,
+									"character": 13
+								}
+							],
+							"signatures": [
+								{
+									"id": 158,
+									"name": "setupInitialRoute",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "setup initial route config for first screen component, call it before the main component render"
+									},
+									"parameters": [
+										{
+											"id": 159,
+											"name": "screenName",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"comment": {
+												"shortText": "screen name defined in registerScreen"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 160,
+											"name": "screenParam",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"comment": {
+												"shortText": "screen param that will be passed to screen component\n"
+											},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "intrinsic",
+														"name": "string"
+													},
+													{
+														"type": "intrinsic",
+														"name": "any"
+													}
+												],
+												"name": "Record"
+											},
+											"defaultValue": "{}"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Type aliases",
+							"kind": 4194304,
+							"children": [
+								146,
+								147
+							]
+						},
+						{
+							"title": "Functions",
+							"kind": 64,
+							"children": [
+								154,
+								152,
+								148,
+								157
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/utils/screen.ts",
+							"line": 1,
+							"character": 0
+						}
+					]
+				},
+				{
+					"id": 98,
+					"name": "share",
+					"kind": 4,
+					"kindString": "Namespace",
+					"flags": {},
+					"children": [
+						{
+							"id": 104,
+							"name": "default",
+							"kind": 16777216,
+							"kindString": "Reference",
+							"flags": {},
+							"target": 99
+						},
+						{
+							"id": 99,
+							"name": "display",
+							"kind": 64,
+							"kindString": "Function",
+							"flags": {
+								"isConst": true
+							},
+							"sources": [
+								{
+									"fileName": "src/utils/share.ts",
+									"line": 9,
+									"character": 13
+								}
+							],
+							"signatures": [
+								{
+									"id": 100,
+									"name": "display",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "Open the system sharing menu"
+									},
+									"parameters": [
+										{
+											"id": 101,
+											"name": "title",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"comment": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 102,
+											"name": "message",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"comment": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 103,
+											"name": "url",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"comment": {
+												"shortText": "\n"
+											},
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "string"
+													},
+													{
+														"type": "array",
+														"elementType": {
+															"type": "intrinsic",
+															"name": "string"
+														}
+													}
+												]
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "void"
+											}
+										],
+										"name": "Promise"
+									}
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "References",
+							"kind": 16777216,
+							"children": [
+								104
+							]
+						},
+						{
+							"title": "Functions",
+							"kind": 64,
+							"children": [
+								99
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/utils/share.ts",
+							"line": 1,
+							"character": 0
+						}
+					]
+				},
+				{
+					"id": 105,
+					"name": "string",
+					"kind": 4,
+					"kindString": "Namespace",
+					"flags": {},
+					"children": [
+						{
+							"id": 106,
+							"name": "upperCaseFirstLetter",
+							"kind": 64,
+							"kindString": "Function",
+							"flags": {
+								"isConst": true
+							},
+							"sources": [
+								{
+									"fileName": "src/utils/string.ts",
+									"line": 1,
+									"character": 13
+								}
+							],
+							"signatures": [
+								{
+									"id": 107,
+									"name": "upperCaseFirstLetter",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 108,
+											"name": "str",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Functions",
+							"kind": 64,
+							"children": [
+								106
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/utils/string.ts",
+							"line": 1,
+							"character": 0
+						}
+					]
+				},
+				{
+					"id": 109,
+					"name": "time",
+					"kind": 4,
+					"kindString": "Namespace",
+					"flags": {},
+					"children": [
+						{
+							"id": 110,
+							"name": "formatSecondsInto_00_00",
+							"kind": 64,
+							"kindString": "Function",
+							"flags": {
+								"isConst": true
+							},
+							"sources": [
+								{
+									"fileName": "src/utils/time.ts",
+									"line": 1,
+									"character": 13
+								}
+							],
+							"signatures": [
+								{
+									"id": 111,
+									"name": "formatSecondsInto_00_00",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 112,
+											"name": "timeInSecond",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Functions",
+							"kind": 64,
+							"children": [
+								110
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/utils/time.ts",
+							"line": 1,
+							"character": 0
+						}
+					]
+				},
+				{
+					"id": 113,
+					"name": "tip",
+					"kind": 4,
+					"kindString": "Namespace",
+					"flags": {},
+					"children": [
+						{
+							"id": 114,
+							"name": "alert",
+							"kind": 64,
+							"kindString": "Function",
+							"flags": {
+								"isConst": true
+							},
+							"sources": [
+								{
+									"fileName": "src/utils/tip.tsx",
+									"line": 3,
+									"character": 13
+								}
+							],
+							"signatures": [
+								{
+									"id": 115,
+									"name": "alert",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 116,
+											"name": "title",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 117,
+											"name": "message",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isOptional": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Functions",
+							"kind": 64,
+							"children": [
+								114
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/utils/tip.tsx",
+							"line": 1,
+							"character": 0
+						}
+					]
+				},
+				{
+					"id": 118,
+					"name": "tw",
+					"kind": 4,
+					"kindString": "Namespace",
+					"flags": {},
+					"children": [
+						{
+							"id": 119,
+							"name": "default",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "node_modules/tailwind-react-native-classnames/dist/index.d.ts",
+									"line": 3,
+									"character": 14
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "TailwindFn"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Variables",
+							"kind": 32,
+							"children": [
+								119
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/utils/tw.ts",
+							"line": 1,
+							"character": 0
+						}
+					]
+				},
+				{
+					"id": 120,
+					"name": "uiConstant",
+					"kind": 4,
+					"kindString": "Namespace",
+					"flags": {},
+					"children": [
+						{
+							"id": 121,
+							"name": "touchableActiveOpacity",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "src/utils/uiConstant.ts",
+									"line": 1,
+									"character": 13
+								}
+							],
+							"type": {
+								"type": "literal",
+								"value": 0.7
+							},
+							"defaultValue": "0.7"
+						}
+					],
+					"groups": [
+						{
+							"title": "Variables",
+							"kind": 32,
+							"children": [
+								121
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/utils/uiConstant.ts",
+							"line": 1,
+							"character": 0
+						}
+					]
+				},
+				{
+					"id": 122,
+					"name": "webDocument",
+					"kind": 4,
+					"kindString": "Namespace",
+					"flags": {},
+					"children": [
+						{
+							"id": 123,
+							"name": "webDocumentKey",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "src/utils/webDocument.ts",
+									"line": 18,
+									"character": 13
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 124,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {},
+									"children": [
+										{
+											"id": 130,
+											"name": "NOTION_DATABASE_ID_EDIT_MEDIA",
+											"kind": 1024,
+											"kindString": "Property",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 128,
+											"name": "NOTION_DATABASE_ID_FAQ",
+											"kind": 1024,
+											"kindString": "Property",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 129,
+											"name": "NOTION_DATABASE_ID_USER_MANUAL",
+											"kind": 1024,
+											"kindString": "Property",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 126,
+											"name": "NOTION_EXTERNAL_SITE_DOMAIN",
+											"kind": 1024,
+											"kindString": "Property",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 127,
+											"name": "NOTION_FAQ_LIST_ID",
+											"kind": 1024,
+											"kindString": "Property",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 125,
+											"name": "NOTION_TOKEN",
+											"kind": 1024,
+											"kindString": "Property",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 133,
+											"name": "PAGE_URL_APP_INFO",
+											"kind": 1024,
+											"kindString": "Property",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 134,
+											"name": "PAGE_URL_CONNECT_TO_CAMERA",
+											"kind": 1024,
+											"kindString": "Property",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 131,
+											"name": "PAGE_URL_PRIVACY_POLICY",
+											"kind": 1024,
+											"kindString": "Property",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 132,
+											"name": "PAGE_URL_TERMS_AND_CONDITIONS",
+											"kind": 1024,
+											"kindString": "Property",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"groups": [
+										{
+											"title": "Properties",
+											"kind": 1024,
+											"children": [
+												130,
+												128,
+												129,
+												126,
+												127,
+												125,
+												133,
+												134,
+												131,
+												132
+											]
+										}
+									]
+								}
+							},
+							"defaultValue": "..."
+						},
+						{
+							"id": 135,
+							"name": "openList",
+							"kind": 64,
+							"kindString": "Function",
+							"flags": {
+								"isConst": true
+							},
+							"sources": [
+								{
+									"fileName": "src/utils/webDocument.ts",
+									"line": 33,
+									"character": 13
+								}
+							],
+							"signatures": [
+								{
+									"id": 136,
+									"name": "openList",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 137,
+											"name": "option",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 138,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"children": [
+														{
+															"id": 139,
+															"name": "title",
+															"kind": 1024,
+															"kindString": "Property",
+															"flags": {},
+															"type": {
+																"type": "intrinsic",
+																"name": "string"
+															},
+															"defaultValue": "''"
+														}
+													],
+													"groups": [
+														{
+															"title": "Properties",
+															"kind": 1024,
+															"children": [
+																139
+															]
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						},
+						{
+							"id": 140,
+							"name": "openWeb",
+							"kind": 64,
+							"kindString": "Function",
+							"flags": {
+								"isConst": true
+							},
+							"sources": [
+								{
+									"fileName": "src/utils/webDocument.ts",
+									"line": 36,
+									"character": 13
+								}
+							],
+							"signatures": [
+								{
+									"id": 141,
+									"name": "openWeb",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 142,
+											"name": "option",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 143,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"children": [
+														{
+															"id": 144,
+															"name": "title",
+															"kind": 1024,
+															"kindString": "Property",
+															"flags": {},
+															"type": {
+																"type": "intrinsic",
+																"name": "string"
+															},
+															"defaultValue": "''"
+														}
+													],
+													"groups": [
+														{
+															"title": "Properties",
+															"kind": 1024,
+															"children": [
+																144
+															]
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Variables",
+							"kind": 32,
+							"children": [
+								123
+							]
+						},
+						{
+							"title": "Functions",
+							"kind": 64,
+							"children": [
+								135,
+								140
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/utils/webDocument.ts",
+							"line": 1,
+							"character": 0
+						}
+					]
+				},
+				{
+					"id": 4,
+					"name": "default",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 5,
+							"name": "__type",
+							"kind": 65536,
+							"kindString": "Type literal",
+							"flags": {}
+						}
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Namespaces",
+					"kind": 4,
+					"children": [
+						27,
+						34,
+						39,
+						51,
+						57,
+						63,
+						88,
+						95,
+						145,
+						98,
+						105,
+						109,
+						113,
+						118,
+						120,
+						122
+					]
+				},
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						4
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "src/utils/index.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		}
+	],
+	"groups": [
+		{
+			"title": "Modules",
+			"kind": 2,
+			"children": [
+				1,
+				3
+			]
+		}
+	]
+}

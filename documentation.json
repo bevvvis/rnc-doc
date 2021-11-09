@@ -13,7 +13,7 @@
 			"flags": {},
 			"children": [
 				{
-					"id": 6,
+					"id": 22,
 					"name": "default",
 					"kind": 1024,
 					"kindString": "Property",
@@ -21,14 +21,14 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 7,
+							"id": 23,
 							"name": "__type",
 							"kind": 65536,
 							"kindString": "Type literal",
 							"flags": {},
 							"children": [
 								{
-									"id": 8,
+									"id": 24,
 									"name": "components",
 									"kind": 1024,
 									"kindString": "Property",
@@ -39,7 +39,7 @@
 									}
 								},
 								{
-									"id": 9,
+									"id": 25,
 									"name": "contexts",
 									"kind": 1024,
 									"kindString": "Property",
@@ -50,7 +50,7 @@
 									}
 								},
 								{
-									"id": 10,
+									"id": 26,
 									"name": "hooks",
 									"kind": 1024,
 									"kindString": "Property",
@@ -61,7 +61,7 @@
 									}
 								},
 								{
-									"id": 11,
+									"id": 27,
 									"name": "managers",
 									"kind": 1024,
 									"kindString": "Property",
@@ -72,7 +72,7 @@
 									}
 								},
 								{
-									"id": 12,
+									"id": 28,
 									"name": "models",
 									"kind": 1024,
 									"kindString": "Property",
@@ -83,7 +83,7 @@
 									}
 								},
 								{
-									"id": 13,
+									"id": 29,
 									"name": "resources",
 									"kind": 1024,
 									"kindString": "Property",
@@ -94,7 +94,7 @@
 									}
 								},
 								{
-									"id": 17,
+									"id": 33,
 									"name": "screens",
 									"kind": 1024,
 									"kindString": "Property",
@@ -102,14 +102,14 @@
 									"type": {
 										"type": "reflection",
 										"declaration": {
-											"id": 18,
+											"id": 34,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
 											"flags": {},
 											"children": [
 												{
-													"id": 19,
+													"id": 35,
 													"name": "registerScreen",
 													"kind": 1024,
 													"kindString": "Property",
@@ -117,21 +117,21 @@
 													"type": {
 														"type": "reflection",
 														"declaration": {
-															"id": 20,
+															"id": 36,
 															"name": "__type",
 															"kind": 65536,
 															"kindString": "Type literal",
 															"flags": {},
 															"signatures": [
 																{
-																	"id": 21,
+																	"id": 37,
 																	"name": "__type",
 																	"kind": 4096,
 																	"kindString": "Call signature",
 																	"flags": {},
 																	"parameters": [
 																		{
-																			"id": 22,
+																			"id": 38,
 																			"name": "key",
 																			"kind": 32768,
 																			"kindString": "Parameter",
@@ -142,7 +142,7 @@
 																			}
 																		},
 																		{
-																			"id": 23,
+																			"id": 39,
 																			"name": "screen",
 																			"kind": 32768,
 																			"kindString": "Parameter",
@@ -153,20 +153,20 @@
 																					{
 																						"type": "reflection",
 																						"declaration": {
-																							"id": 24,
+																							"id": 40,
 																							"name": "__type",
 																							"kind": 65536,
 																							"kindString": "Type literal",
 																							"flags": {},
 																							"indexSignature": {
-																								"id": 25,
+																								"id": 41,
 																								"name": "__index",
 																								"kind": 8192,
 																								"kindString": "Index signature",
 																								"flags": {},
 																								"parameters": [
 																									{
-																										"id": 26,
+																										"id": 42,
 																										"name": "key",
 																										"kind": 32768,
 																										"flags": {},
@@ -203,7 +203,7 @@
 													"title": "Properties",
 													"kind": 1024,
 													"children": [
-														19
+														35
 													]
 												}
 											]
@@ -212,7 +212,7 @@
 									"defaultValue": "..."
 								},
 								{
-									"id": 14,
+									"id": 30,
 									"name": "shortcut",
 									"kind": 1024,
 									"kindString": "Property",
@@ -223,7 +223,7 @@
 									}
 								},
 								{
-									"id": 15,
+									"id": 31,
 									"name": "types",
 									"kind": 1024,
 									"kindString": "Property",
@@ -234,14 +234,14 @@
 									}
 								},
 								{
-									"id": 16,
+									"id": 32,
 									"name": "utils",
 									"kind": 1024,
 									"kindString": "Property",
 									"flags": {},
 									"type": {
 										"type": "reference",
-										"id": 3,
+										"id": 19,
 										"name": "__module"
 									}
 								}
@@ -251,16 +251,16 @@
 									"title": "Properties",
 									"kind": 1024,
 									"children": [
-										8,
-										9,
-										10,
-										11,
-										12,
-										13,
-										17,
-										14,
-										15,
-										16
+										24,
+										25,
+										26,
+										27,
+										28,
+										29,
+										33,
+										30,
+										31,
+										32
 									]
 								}
 							]
@@ -268,7 +268,7 @@
 					}
 				},
 				{
-					"id": 2,
+					"id": 18,
 					"name": "app",
 					"kind": 32,
 					"kindString": "Variable",
@@ -284,7 +284,7 @@
 					"sources": [
 						{
 							"fileName": "src/index.ts",
-							"line": 12,
+							"line": 25,
 							"character": 13
 						}
 					],
@@ -299,6 +299,185 @@
 						"name": "ComponentType"
 					},
 					"defaultValue": "App"
+				},
+				{
+					"id": 2,
+					"name": "components",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {},
+					"type": {
+						"type": "reference",
+						"name": "__module"
+					}
+				},
+				{
+					"id": 3,
+					"name": "contexts",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {},
+					"type": {
+						"type": "reference",
+						"name": "__module"
+					}
+				},
+				{
+					"id": 4,
+					"name": "hooks",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {},
+					"type": {
+						"type": "reference",
+						"name": "__module"
+					}
+				},
+				{
+					"id": 5,
+					"name": "managers",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {},
+					"type": {
+						"type": "reference",
+						"name": "__module"
+					}
+				},
+				{
+					"id": 6,
+					"name": "models",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {},
+					"type": {
+						"type": "reference",
+						"name": "__module"
+					}
+				},
+				{
+					"id": 7,
+					"name": "resources",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {},
+					"type": {
+						"type": "reference",
+						"name": "__module"
+					}
+				},
+				{
+					"id": 8,
+					"name": "shortcut",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {},
+					"type": {
+						"type": "reference",
+						"name": "__module"
+					}
+				},
+				{
+					"id": 9,
+					"name": "types",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {},
+					"type": {
+						"type": "reference",
+						"name": "__module"
+					}
+				},
+				{
+					"id": 10,
+					"name": "utils",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {},
+					"type": {
+						"type": "reference",
+						"id": 19,
+						"name": "__module"
+					}
+				},
+				{
+					"id": 11,
+					"name": "registerScreen",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {},
+					"signatures": [
+						{
+							"id": 12,
+							"name": "registerScreen",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 13,
+									"name": "key",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 14,
+									"name": "screen",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reflection",
+												"declaration": {
+													"id": 15,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"indexSignature": {
+														"id": 16,
+														"name": "__index",
+														"kind": 8192,
+														"kindString": "Index signature",
+														"flags": {},
+														"parameters": [
+															{
+																"id": 17,
+																"name": "key",
+																"kind": 32768,
+																"flags": {},
+																"type": {
+																	"type": "intrinsic",
+																	"name": "string"
+																}
+															}
+														],
+														"type": {
+															"type": "intrinsic",
+															"name": "any"
+														}
+													}
+												}
+											}
+										],
+										"name": "IScreen"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
 				}
 			],
 			"groups": [
@@ -306,14 +485,30 @@
 					"title": "Properties",
 					"kind": 1024,
 					"children": [
-						6
+						22
 					]
 				},
 				{
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						2
+						18,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				},
+				{
+					"title": "Functions",
+					"kind": 64,
+					"children": [
+						11
 					]
 				}
 			],
@@ -326,21 +521,21 @@
 			]
 		},
 		{
-			"id": 3,
+			"id": 19,
 			"name": "utils",
 			"kind": 2,
 			"kindString": "Module",
 			"flags": {},
 			"children": [
 				{
-					"id": 27,
+					"id": 43,
 					"name": "actionSheet",
 					"kind": 4,
 					"kindString": "Namespace",
 					"flags": {},
 					"children": [
 						{
-							"id": 28,
+							"id": 44,
 							"name": "ActionSheetProviderContainer",
 							"kind": 64,
 							"kindString": "Function",
@@ -356,14 +551,14 @@
 							],
 							"signatures": [
 								{
-									"id": 29,
+									"id": 45,
 									"name": "ActionSheetProviderContainer",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 30,
+											"id": 46,
 											"name": "props",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -382,7 +577,7 @@
 							]
 						},
 						{
-							"id": 31,
+							"id": 47,
 							"name": "showActionSheet",
 							"kind": 64,
 							"kindString": "Function",
@@ -398,14 +593,14 @@
 							],
 							"signatures": [
 								{
-									"id": 32,
+									"id": 48,
 									"name": "showActionSheet",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 33,
+											"id": 49,
 											"name": "options",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -429,8 +624,8 @@
 							"title": "Functions",
 							"kind": 64,
 							"children": [
-								28,
-								31
+								44,
+								47
 							]
 						}
 					],
@@ -443,14 +638,14 @@
 					]
 				},
 				{
-					"id": 34,
+					"id": 50,
 					"name": "commonStyle",
 					"kind": 4,
 					"kindString": "Namespace",
 					"flags": {},
 					"children": [
 						{
-							"id": 35,
+							"id": 51,
 							"name": "navigation",
 							"kind": 32,
 							"kindString": "Variable",
@@ -465,14 +660,14 @@
 							"type": {
 								"type": "reflection",
 								"declaration": {
-									"id": 36,
+									"id": 52,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
 									"flags": {},
 									"children": [
 										{
-											"id": 37,
+											"id": 53,
 											"name": "buttonContainer",
 											"kind": 1024,
 											"kindString": "Property",
@@ -484,7 +679,7 @@
 											"defaultValue": "..."
 										},
 										{
-											"id": 38,
+											"id": 54,
 											"name": "icon",
 											"kind": 1024,
 											"kindString": "Property",
@@ -501,8 +696,8 @@
 											"title": "Properties",
 											"kind": 1024,
 											"children": [
-												37,
-												38
+												53,
+												54
 											]
 										}
 									]
@@ -516,7 +711,7 @@
 							"title": "Variables",
 							"kind": 32,
 							"children": [
-								35
+								51
 							]
 						}
 					],
@@ -529,29 +724,29 @@
 					]
 				},
 				{
-					"id": 39,
+					"id": 55,
 					"name": "editor",
 					"kind": 4,
 					"kindString": "Namespace",
 					"flags": {},
 					"children": [
 						{
-							"id": 50,
+							"id": 66,
 							"name": "default",
 							"kind": 16777216,
 							"kindString": "Reference",
 							"flags": {},
-							"target": 44
+							"target": 60
 						},
 						{
-							"id": 40,
+							"id": 56,
 							"name": "IOpenOptions",
 							"kind": 256,
 							"kindString": "Interface",
 							"flags": {},
 							"children": [
 								{
-									"id": 42,
+									"id": 58,
 									"name": "mediaKey",
 									"kind": 1024,
 									"kindString": "Property",
@@ -571,7 +766,7 @@
 									}
 								},
 								{
-									"id": 41,
+									"id": 57,
 									"name": "mediaType",
 									"kind": 1024,
 									"kindString": "Property",
@@ -589,7 +784,7 @@
 									}
 								},
 								{
-									"id": 43,
+									"id": 59,
 									"name": "url",
 									"kind": 1024,
 									"kindString": "Property",
@@ -614,9 +809,9 @@
 									"title": "Properties",
 									"kind": 1024,
 									"children": [
-										42,
-										41,
-										43
+										58,
+										57,
+										59
 									]
 								}
 							],
@@ -629,7 +824,7 @@
 							]
 						},
 						{
-							"id": 44,
+							"id": 60,
 							"name": "editor",
 							"kind": 32,
 							"kindString": "Variable",
@@ -644,14 +839,14 @@
 							"type": {
 								"type": "reflection",
 								"declaration": {
-									"id": 45,
+									"id": 61,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
 									"flags": {},
 									"children": [
 										{
-											"id": 46,
+											"id": 62,
 											"name": "open",
 											"kind": 1024,
 											"kindString": "Property",
@@ -659,28 +854,28 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 47,
+													"id": 63,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"signatures": [
 														{
-															"id": 48,
+															"id": 64,
 															"name": "__type",
 															"kind": 4096,
 															"kindString": "Call signature",
 															"flags": {},
 															"parameters": [
 																{
-																	"id": 49,
+																	"id": 65,
 																	"name": "options",
 																	"kind": 32768,
 																	"kindString": "Parameter",
 																	"flags": {},
 																	"type": {
 																		"type": "reference",
-																		"id": 40,
+																		"id": 56,
 																		"name": "IOpenOptions"
 																	}
 																}
@@ -701,7 +896,7 @@
 											"title": "Properties",
 											"kind": 1024,
 											"children": [
-												46
+												62
 											]
 										}
 									]
@@ -715,21 +910,21 @@
 							"title": "References",
 							"kind": 16777216,
 							"children": [
-								50
+								66
 							]
 						},
 						{
 							"title": "Interfaces",
 							"kind": 256,
 							"children": [
-								40
+								56
 							]
 						},
 						{
 							"title": "Variables",
 							"kind": 32,
 							"children": [
-								44
+								60
 							]
 						}
 					],
@@ -742,14 +937,14 @@
 					]
 				},
 				{
-					"id": 51,
+					"id": 67,
 					"name": "fs",
 					"kind": 4,
 					"kindString": "Namespace",
 					"flags": {},
 					"children": [
 						{
-							"id": 52,
+							"id": 68,
 							"name": "copyDir",
 							"kind": 64,
 							"kindString": "Function",
@@ -765,14 +960,14 @@
 							],
 							"signatures": [
 								{
-									"id": 53,
+									"id": 69,
 									"name": "copyDir",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 54,
+											"id": 70,
 											"name": "baseFromPath",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -783,7 +978,7 @@
 											}
 										},
 										{
-											"id": 55,
+											"id": 71,
 											"name": "baseDestPath",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -794,7 +989,7 @@
 											}
 										},
 										{
-											"id": 56,
+											"id": 72,
 											"name": "fromPath",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -825,7 +1020,7 @@
 							"title": "Functions",
 							"kind": 64,
 							"children": [
-								52
+								68
 							]
 						}
 					],
@@ -838,22 +1033,22 @@
 					]
 				},
 				{
-					"id": 57,
+					"id": 73,
 					"name": "getRouteParam",
 					"kind": 4,
 					"kindString": "Namespace",
 					"flags": {},
 					"children": [
 						{
-							"id": 62,
+							"id": 78,
 							"name": "default",
 							"kind": 16777216,
 							"kindString": "Reference",
 							"flags": {},
-							"target": 58
+							"target": 74
 						},
 						{
-							"id": 58,
+							"id": 74,
 							"name": "useGetRouteParam",
 							"kind": 64,
 							"kindString": "Function",
@@ -869,410 +1064,8 @@
 							],
 							"signatures": [
 								{
-									"id": 59,
-									"name": "useGetRouteParam",
-									"kind": 4096,
-									"kindString": "Call signature",
-									"flags": {},
-									"typeParameter": [
-										{
-											"id": 60,
-											"name": "T",
-											"kind": 131072,
-											"kindString": "Type parameter",
-											"flags": {},
-											"type": {
-												"type": "typeOperator",
-												"operator": "keyof",
-												"target": {
-													"type": "reference",
-													"name": "RootStackParamList"
-												}
-											}
-										}
-									],
-									"parameters": [
-										{
-											"id": 61,
-											"name": "screenName",
-											"kind": 32768,
-											"kindString": "Parameter",
-											"flags": {},
-											"type": {
-												"type": "reference",
-												"id": 60,
-												"name": "T"
-											}
-										}
-									],
-									"type": {
-										"type": "union",
-										"types": [
-											{
-												"type": "intrinsic",
-												"name": "undefined"
-											},
-											{
-												"type": "reference",
-												"typeArguments": [
-													{
-														"type": "indexedAccess",
-														"indexType": {
-															"type": "reference",
-															"id": 60,
-															"name": "T"
-														},
-														"objectType": {
-															"type": "reference",
-															"name": "RootStackParamList"
-														}
-													}
-												],
-												"name": "Readonly"
-											}
-										]
-									}
-								}
-							]
-						}
-					],
-					"groups": [
-						{
-							"title": "References",
-							"kind": 16777216,
-							"children": [
-								62
-							]
-						},
-						{
-							"title": "Functions",
-							"kind": 64,
-							"children": [
-								58
-							]
-						}
-					],
-					"sources": [
-						{
-							"fileName": "src/utils/getRouteParam.ts",
-							"line": 1,
-							"character": 0
-						}
-					]
-				},
-				{
-					"id": 63,
-					"name": "nav",
-					"kind": 4,
-					"kindString": "Namespace",
-					"flags": {},
-					"children": [
-						{
-							"id": 83,
-							"name": "screenOptions",
-							"kind": 32,
-							"kindString": "Variable",
-							"flags": {},
-							"sources": [
-								{
-									"fileName": "src/utils/nav.ts",
-									"line": 52,
-									"character": 13
-								}
-							],
-							"type": {
-								"type": "reflection",
-								"declaration": {
-									"id": 84,
-									"name": "__type",
-									"kind": 65536,
-									"kindString": "Type literal",
-									"flags": {},
-									"children": [
-										{
-											"id": 85,
-											"name": "hideHeaderShadow",
-											"kind": 1024,
-											"kindString": "Property",
-											"flags": {},
-											"type": {
-												"type": "reflection",
-												"declaration": {
-													"id": 86,
-													"name": "__type",
-													"kind": 65536,
-													"kindString": "Type literal",
-													"flags": {},
-													"children": [
-														{
-															"id": 87,
-															"name": "headerShadowVisible",
-															"kind": 1024,
-															"kindString": "Property",
-															"flags": {},
-															"type": {
-																"type": "intrinsic",
-																"name": "boolean"
-															},
-															"defaultValue": "false"
-														}
-													],
-													"groups": [
-														{
-															"title": "Properties",
-															"kind": 1024,
-															"children": [
-																87
-															]
-														}
-													]
-												}
-											},
-											"defaultValue": "..."
-										}
-									],
-									"groups": [
-										{
-											"title": "Properties",
-											"kind": 1024,
-											"children": [
-												85
-											]
-										}
-									]
-								}
-							},
-							"defaultValue": "..."
-						},
-						{
-							"id": 69,
-							"name": "_push",
-							"kind": 64,
-							"kindString": "Function",
-							"flags": {},
-							"sources": [
-								{
-									"fileName": "src/utils/nav.ts",
-									"line": 17,
-									"character": 16
-								}
-							],
-							"signatures": [
-								{
-									"id": 70,
-									"name": "_push",
-									"kind": 4096,
-									"kindString": "Call signature",
-									"flags": {},
-									"typeParameter": [
-										{
-											"id": 71,
-											"name": "T",
-											"kind": 131072,
-											"kindString": "Type parameter",
-											"flags": {},
-											"type": {
-												"type": "typeOperator",
-												"operator": "keyof",
-												"target": {
-													"type": "reference",
-													"name": "RootStackParamList"
-												}
-											}
-										}
-									],
-									"parameters": [
-										{
-											"id": 72,
-											"name": "name",
-											"kind": 32768,
-											"kindString": "Parameter",
-											"flags": {},
-											"type": {
-												"type": "reference",
-												"id": 71,
-												"name": "T"
-											}
-										},
-										{
-											"id": 73,
-											"name": "params",
-											"kind": 32768,
-											"kindString": "Parameter",
-											"flags": {
-												"isOptional": true
-											},
-											"type": {
-												"type": "indexedAccess",
-												"indexType": {
-													"type": "reference",
-													"id": 71,
-													"name": "T"
-												},
-												"objectType": {
-													"type": "reference",
-													"name": "RootStackParamList"
-												}
-											}
-										}
-									],
-									"type": {
-										"type": "intrinsic",
-										"name": "void"
-									}
-								}
-							]
-						},
-						{
-							"id": 64,
-							"name": "navigate",
-							"kind": 64,
-							"kindString": "Function",
-							"flags": {},
-							"sources": [
-								{
-									"fileName": "src/utils/nav.ts",
-									"line": 7,
-									"character": 16
-								}
-							],
-							"signatures": [
-								{
-									"id": 65,
-									"name": "navigate",
-									"kind": 4096,
-									"kindString": "Call signature",
-									"flags": {},
-									"typeParameter": [
-										{
-											"id": 66,
-											"name": "T",
-											"kind": 131072,
-											"kindString": "Type parameter",
-											"flags": {},
-											"type": {
-												"type": "typeOperator",
-												"operator": "keyof",
-												"target": {
-													"type": "reference",
-													"name": "RootStackParamList"
-												}
-											}
-										}
-									],
-									"parameters": [
-										{
-											"id": 67,
-											"name": "name",
-											"kind": 32768,
-											"kindString": "Parameter",
-											"flags": {},
-											"type": {
-												"type": "reference",
-												"id": 66,
-												"name": "T"
-											}
-										},
-										{
-											"id": 68,
-											"name": "params",
-											"kind": 32768,
-											"kindString": "Parameter",
-											"flags": {
-												"isOptional": true
-											},
-											"type": {
-												"type": "indexedAccess",
-												"indexType": {
-													"type": "reference",
-													"id": 66,
-													"name": "T"
-												},
-												"objectType": {
-													"type": "reference",
-													"name": "RootStackParamList"
-												}
-											}
-										}
-									],
-									"type": {
-										"type": "intrinsic",
-										"name": "void"
-									}
-								}
-							]
-						},
-						{
-							"id": 81,
-							"name": "navigateToHomeScreen",
-							"kind": 64,
-							"kindString": "Function",
-							"flags": {},
-							"sources": [
-								{
-									"fileName": "src/utils/nav.ts",
-									"line": 48,
-									"character": 16
-								}
-							],
-							"signatures": [
-								{
-									"id": 82,
-									"name": "navigateToHomeScreen",
-									"kind": 4096,
-									"kindString": "Call signature",
-									"flags": {},
-									"type": {
-										"type": "intrinsic",
-										"name": "void"
-									}
-								}
-							]
-						},
-						{
-							"id": 79,
-							"name": "navigationGoBack",
-							"kind": 64,
-							"kindString": "Function",
-							"flags": {},
-							"sources": [
-								{
-									"fileName": "src/utils/nav.ts",
-									"line": 42,
-									"character": 16
-								}
-							],
-							"signatures": [
-								{
-									"id": 80,
-									"name": "navigationGoBack",
-									"kind": 4096,
-									"kindString": "Call signature",
-									"flags": {},
-									"type": {
-										"type": "intrinsic",
-										"name": "void"
-									}
-								}
-							]
-						},
-						{
-							"id": 74,
-							"name": "push",
-							"kind": 64,
-							"kindString": "Function",
-							"flags": {},
-							"sources": [
-								{
-									"fileName": "src/utils/nav.ts",
-									"line": 27,
-									"character": 16
-								}
-							],
-							"signatures": [
-								{
 									"id": 75,
-									"name": "push",
+									"name": "useGetRouteParam",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
@@ -1296,7 +1089,7 @@
 									"parameters": [
 										{
 											"id": 77,
-											"name": "name",
+											"name": "screenName",
 											"kind": 32768,
 											"kindString": "Parameter",
 											"flags": {},
@@ -1305,9 +1098,199 @@
 												"id": 76,
 												"name": "T"
 											}
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "undefined"
+											},
+											{
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "indexedAccess",
+														"indexType": {
+															"type": "reference",
+															"id": 76,
+															"name": "T"
+														},
+														"objectType": {
+															"type": "reference",
+															"name": "RootStackParamList"
+														}
+													}
+												],
+												"name": "Readonly"
+											}
+										]
+									}
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "References",
+							"kind": 16777216,
+							"children": [
+								78
+							]
+						},
+						{
+							"title": "Functions",
+							"kind": 64,
+							"children": [
+								74
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/utils/getRouteParam.ts",
+							"line": 1,
+							"character": 0
+						}
+					]
+				},
+				{
+					"id": 79,
+					"name": "nav",
+					"kind": 4,
+					"kindString": "Namespace",
+					"flags": {},
+					"children": [
+						{
+							"id": 99,
+							"name": "screenOptions",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "src/utils/nav.ts",
+									"line": 52,
+									"character": 13
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 100,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {},
+									"children": [
+										{
+											"id": 101,
+											"name": "hideHeaderShadow",
+											"kind": 1024,
+											"kindString": "Property",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 102,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"children": [
+														{
+															"id": 103,
+															"name": "headerShadowVisible",
+															"kind": 1024,
+															"kindString": "Property",
+															"flags": {},
+															"type": {
+																"type": "intrinsic",
+																"name": "boolean"
+															},
+															"defaultValue": "false"
+														}
+													],
+													"groups": [
+														{
+															"title": "Properties",
+															"kind": 1024,
+															"children": [
+																103
+															]
+														}
+													]
+												}
+											},
+											"defaultValue": "..."
+										}
+									],
+									"groups": [
+										{
+											"title": "Properties",
+											"kind": 1024,
+											"children": [
+												101
+											]
+										}
+									]
+								}
+							},
+							"defaultValue": "..."
+						},
+						{
+							"id": 85,
+							"name": "_push",
+							"kind": 64,
+							"kindString": "Function",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "src/utils/nav.ts",
+									"line": 17,
+									"character": 16
+								}
+							],
+							"signatures": [
+								{
+									"id": 86,
+									"name": "_push",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"typeParameter": [
+										{
+											"id": 87,
+											"name": "T",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {},
+											"type": {
+												"type": "typeOperator",
+												"operator": "keyof",
+												"target": {
+													"type": "reference",
+													"name": "RootStackParamList"
+												}
+											}
+										}
+									],
+									"parameters": [
+										{
+											"id": 88,
+											"name": "name",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"id": 87,
+												"name": "T"
+											}
 										},
 										{
-											"id": 78,
+											"id": 89,
 											"name": "params",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1318,7 +1301,219 @@
 												"type": "indexedAccess",
 												"indexType": {
 													"type": "reference",
-													"id": 76,
+													"id": 87,
+													"name": "T"
+												},
+												"objectType": {
+													"type": "reference",
+													"name": "RootStackParamList"
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						},
+						{
+							"id": 80,
+							"name": "navigate",
+							"kind": 64,
+							"kindString": "Function",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "src/utils/nav.ts",
+									"line": 7,
+									"character": 16
+								}
+							],
+							"signatures": [
+								{
+									"id": 81,
+									"name": "navigate",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"typeParameter": [
+										{
+											"id": 82,
+											"name": "T",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {},
+											"type": {
+												"type": "typeOperator",
+												"operator": "keyof",
+												"target": {
+													"type": "reference",
+													"name": "RootStackParamList"
+												}
+											}
+										}
+									],
+									"parameters": [
+										{
+											"id": 83,
+											"name": "name",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"id": 82,
+												"name": "T"
+											}
+										},
+										{
+											"id": 84,
+											"name": "params",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isOptional": true
+											},
+											"type": {
+												"type": "indexedAccess",
+												"indexType": {
+													"type": "reference",
+													"id": 82,
+													"name": "T"
+												},
+												"objectType": {
+													"type": "reference",
+													"name": "RootStackParamList"
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						},
+						{
+							"id": 97,
+							"name": "navigateToHomeScreen",
+							"kind": 64,
+							"kindString": "Function",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "src/utils/nav.ts",
+									"line": 48,
+									"character": 16
+								}
+							],
+							"signatures": [
+								{
+									"id": 98,
+									"name": "navigateToHomeScreen",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						},
+						{
+							"id": 95,
+							"name": "navigationGoBack",
+							"kind": 64,
+							"kindString": "Function",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "src/utils/nav.ts",
+									"line": 42,
+									"character": 16
+								}
+							],
+							"signatures": [
+								{
+									"id": 96,
+									"name": "navigationGoBack",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						},
+						{
+							"id": 90,
+							"name": "push",
+							"kind": 64,
+							"kindString": "Function",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "src/utils/nav.ts",
+									"line": 27,
+									"character": 16
+								}
+							],
+							"signatures": [
+								{
+									"id": 91,
+									"name": "push",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"typeParameter": [
+										{
+											"id": 92,
+											"name": "T",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {},
+											"type": {
+												"type": "typeOperator",
+												"operator": "keyof",
+												"target": {
+													"type": "reference",
+													"name": "RootStackParamList"
+												}
+											}
+										}
+									],
+									"parameters": [
+										{
+											"id": 93,
+											"name": "name",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"id": 92,
+												"name": "T"
+											}
+										},
+										{
+											"id": 94,
+											"name": "params",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isOptional": true
+											},
+											"type": {
+												"type": "indexedAccess",
+												"indexType": {
+													"type": "reference",
+													"id": 92,
 													"name": "T"
 												},
 												"objectType": {
@@ -1341,18 +1536,18 @@
 							"title": "Variables",
 							"kind": 32,
 							"children": [
-								83
+								99
 							]
 						},
 						{
 							"title": "Functions",
 							"kind": 64,
 							"children": [
-								69,
-								64,
-								81,
-								79,
-								74
+								85,
+								80,
+								97,
+								95,
+								90
 							]
 						}
 					],
@@ -1365,14 +1560,14 @@
 					]
 				},
 				{
-					"id": 88,
+					"id": 104,
 					"name": "notion",
 					"kind": 4,
 					"kindString": "Namespace",
 					"flags": {},
 					"children": [
 						{
-							"id": 89,
+							"id": 105,
 							"name": "getList",
 							"kind": 64,
 							"kindString": "Function",
@@ -1388,14 +1583,14 @@
 							],
 							"signatures": [
 								{
-									"id": 90,
+									"id": 106,
 									"name": "getList",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 91,
+											"id": 107,
 											"name": "databaseId",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1414,20 +1609,20 @@
 												"elementType": {
 													"type": "reflection",
 													"declaration": {
-														"id": 92,
+														"id": 108,
 														"name": "__type",
 														"kind": 65536,
 														"kindString": "Type literal",
 														"flags": {},
 														"indexSignature": {
-															"id": 93,
+															"id": 109,
 															"name": "__index",
 															"kind": 8192,
 															"kindString": "Index signature",
 															"flags": {},
 															"parameters": [
 																{
-																	"id": 94,
+																	"id": 110,
 																	"name": "key",
 																	"kind": 32768,
 																	"flags": {},
@@ -1457,7 +1652,7 @@
 							"title": "Functions",
 							"kind": 64,
 							"children": [
-								89
+								105
 							]
 						}
 					],
@@ -1470,14 +1665,14 @@
 					]
 				},
 				{
-					"id": 95,
+					"id": 111,
 					"name": "platform",
 					"kind": 4,
 					"kindString": "Namespace",
 					"flags": {},
 					"children": [
 						{
-							"id": 97,
+							"id": 113,
 							"name": "Android",
 							"kind": 32,
 							"kindString": "Variable",
@@ -1499,7 +1694,7 @@
 							"defaultValue": "..."
 						},
 						{
-							"id": 96,
+							"id": 112,
 							"name": "iOS",
 							"kind": 32,
 							"kindString": "Variable",
@@ -1526,8 +1721,8 @@
 							"title": "Variables",
 							"kind": 32,
 							"children": [
-								97,
-								96
+								113,
+								112
 							]
 						}
 					],
@@ -1540,14 +1735,14 @@
 					]
 				},
 				{
-					"id": 145,
+					"id": 161,
 					"name": "screen",
 					"kind": 4,
 					"kindString": "Namespace",
 					"flags": {},
 					"children": [
 						{
-							"id": 146,
+							"id": 162,
 							"name": "IScreenItem",
 							"kind": 4194304,
 							"kindString": "Type alias",
@@ -1581,7 +1776,7 @@
 							}
 						},
 						{
-							"id": 147,
+							"id": 163,
 							"name": "TScreens",
 							"kind": 4194304,
 							"kindString": "Type alias",
@@ -1602,7 +1797,7 @@
 									},
 									{
 										"type": "reference",
-										"id": 146,
+										"id": 162,
 										"name": "IScreenItem"
 									}
 								],
@@ -1610,7 +1805,7 @@
 							}
 						},
 						{
-							"id": 154,
+							"id": 170,
 							"name": "getScreenByKey",
 							"kind": 64,
 							"kindString": "Function",
@@ -1626,7 +1821,7 @@
 							],
 							"signatures": [
 								{
-									"id": 155,
+									"id": 171,
 									"name": "getScreenByKey",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1637,7 +1832,7 @@
 									},
 									"parameters": [
 										{
-											"id": 156,
+											"id": 172,
 											"name": "key",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1660,7 +1855,7 @@
 											},
 											{
 												"type": "reference",
-												"id": 146,
+												"id": 162,
 												"name": "IScreenItem"
 											}
 										]
@@ -1669,7 +1864,7 @@
 							]
 						},
 						{
-							"id": 152,
+							"id": 168,
 							"name": "getScreens",
 							"kind": 64,
 							"kindString": "Function",
@@ -1685,7 +1880,7 @@
 							],
 							"signatures": [
 								{
-									"id": 153,
+									"id": 169,
 									"name": "getScreens",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1696,14 +1891,14 @@
 									},
 									"type": {
 										"type": "reference",
-										"id": 147,
+										"id": 163,
 										"name": "TScreens"
 									}
 								}
 							]
 						},
 						{
-							"id": 148,
+							"id": 164,
 							"name": "registerScreen",
 							"kind": 64,
 							"kindString": "Function",
@@ -1719,14 +1914,14 @@
 							],
 							"signatures": [
 								{
-									"id": 149,
+									"id": 165,
 									"name": "registerScreen",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 150,
+											"id": 166,
 											"name": "key",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1737,14 +1932,14 @@
 											}
 										},
 										{
-											"id": 151,
+											"id": 167,
 											"name": "screen",
 											"kind": 32768,
 											"kindString": "Parameter",
 											"flags": {},
 											"type": {
 												"type": "reference",
-												"id": 146,
+												"id": 162,
 												"name": "IScreenItem"
 											}
 										}
@@ -1757,7 +1952,7 @@
 							]
 						},
 						{
-							"id": 157,
+							"id": 173,
 							"name": "setupInitialRoute",
 							"kind": 64,
 							"kindString": "Function",
@@ -1773,7 +1968,7 @@
 							],
 							"signatures": [
 								{
-									"id": 158,
+									"id": 174,
 									"name": "setupInitialRoute",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1783,7 +1978,7 @@
 									},
 									"parameters": [
 										{
-											"id": 159,
+											"id": 175,
 											"name": "screenName",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1797,7 +1992,7 @@
 											}
 										},
 										{
-											"id": 160,
+											"id": 176,
 											"name": "screenParam",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1835,18 +2030,18 @@
 							"title": "Type aliases",
 							"kind": 4194304,
 							"children": [
-								146,
-								147
+								162,
+								163
 							]
 						},
 						{
 							"title": "Functions",
 							"kind": 64,
 							"children": [
-								154,
-								152,
-								148,
-								157
+								170,
+								168,
+								164,
+								173
 							]
 						}
 					],
@@ -1859,22 +2054,22 @@
 					]
 				},
 				{
-					"id": 98,
+					"id": 114,
 					"name": "share",
 					"kind": 4,
 					"kindString": "Namespace",
 					"flags": {},
 					"children": [
 						{
-							"id": 104,
+							"id": 120,
 							"name": "default",
 							"kind": 16777216,
 							"kindString": "Reference",
 							"flags": {},
-							"target": 99
+							"target": 115
 						},
 						{
-							"id": 99,
+							"id": 115,
 							"name": "display",
 							"kind": 64,
 							"kindString": "Function",
@@ -1890,7 +2085,7 @@
 							],
 							"signatures": [
 								{
-									"id": 100,
+									"id": 116,
 									"name": "display",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1900,7 +2095,7 @@
 									},
 									"parameters": [
 										{
-											"id": 101,
+											"id": 117,
 											"name": "title",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1912,7 +2107,7 @@
 											}
 										},
 										{
-											"id": 102,
+											"id": 118,
 											"name": "message",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1924,7 +2119,7 @@
 											}
 										},
 										{
-											"id": 103,
+											"id": 119,
 											"name": "url",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1969,14 +2164,14 @@
 							"title": "References",
 							"kind": 16777216,
 							"children": [
-								104
+								120
 							]
 						},
 						{
 							"title": "Functions",
 							"kind": 64,
 							"children": [
-								99
+								115
 							]
 						}
 					],
@@ -1989,14 +2184,14 @@
 					]
 				},
 				{
-					"id": 105,
+					"id": 121,
 					"name": "string",
 					"kind": 4,
 					"kindString": "Namespace",
 					"flags": {},
 					"children": [
 						{
-							"id": 106,
+							"id": 122,
 							"name": "upperCaseFirstLetter",
 							"kind": 64,
 							"kindString": "Function",
@@ -2012,14 +2207,14 @@
 							],
 							"signatures": [
 								{
-									"id": 107,
+									"id": 123,
 									"name": "upperCaseFirstLetter",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 108,
+											"id": 124,
 											"name": "str",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2043,7 +2238,7 @@
 							"title": "Functions",
 							"kind": 64,
 							"children": [
-								106
+								122
 							]
 						}
 					],
@@ -2056,14 +2251,14 @@
 					]
 				},
 				{
-					"id": 109,
+					"id": 125,
 					"name": "time",
 					"kind": 4,
 					"kindString": "Namespace",
 					"flags": {},
 					"children": [
 						{
-							"id": 110,
+							"id": 126,
 							"name": "formatSecondsInto_00_00",
 							"kind": 64,
 							"kindString": "Function",
@@ -2079,14 +2274,14 @@
 							],
 							"signatures": [
 								{
-									"id": 111,
+									"id": 127,
 									"name": "formatSecondsInto_00_00",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 112,
+											"id": 128,
 											"name": "timeInSecond",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2110,7 +2305,7 @@
 							"title": "Functions",
 							"kind": 64,
 							"children": [
-								110
+								126
 							]
 						}
 					],
@@ -2123,14 +2318,14 @@
 					]
 				},
 				{
-					"id": 113,
+					"id": 129,
 					"name": "tip",
 					"kind": 4,
 					"kindString": "Namespace",
 					"flags": {},
 					"children": [
 						{
-							"id": 114,
+							"id": 130,
 							"name": "alert",
 							"kind": 64,
 							"kindString": "Function",
@@ -2146,14 +2341,14 @@
 							],
 							"signatures": [
 								{
-									"id": 115,
+									"id": 131,
 									"name": "alert",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 116,
+											"id": 132,
 											"name": "title",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2164,7 +2359,7 @@
 											}
 										},
 										{
-											"id": 117,
+											"id": 133,
 											"name": "message",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2190,7 +2385,7 @@
 							"title": "Functions",
 							"kind": 64,
 							"children": [
-								114
+								130
 							]
 						}
 					],
@@ -2203,14 +2398,14 @@
 					]
 				},
 				{
-					"id": 118,
+					"id": 134,
 					"name": "tw",
 					"kind": 4,
 					"kindString": "Namespace",
 					"flags": {},
 					"children": [
 						{
-							"id": 119,
+							"id": 135,
 							"name": "default",
 							"kind": 32,
 							"kindString": "Variable",
@@ -2233,7 +2428,7 @@
 							"title": "Variables",
 							"kind": 32,
 							"children": [
-								119
+								135
 							]
 						}
 					],
@@ -2246,14 +2441,14 @@
 					]
 				},
 				{
-					"id": 120,
+					"id": 136,
 					"name": "uiConstant",
 					"kind": 4,
 					"kindString": "Namespace",
 					"flags": {},
 					"children": [
 						{
-							"id": 121,
+							"id": 137,
 							"name": "touchableActiveOpacity",
 							"kind": 32,
 							"kindString": "Variable",
@@ -2277,7 +2472,7 @@
 							"title": "Variables",
 							"kind": 32,
 							"children": [
-								121
+								137
 							]
 						}
 					],
@@ -2290,14 +2485,14 @@
 					]
 				},
 				{
-					"id": 122,
+					"id": 138,
 					"name": "webDocument",
 					"kind": 4,
 					"kindString": "Namespace",
 					"flags": {},
 					"children": [
 						{
-							"id": 123,
+							"id": 139,
 							"name": "webDocumentKey",
 							"kind": 32,
 							"kindString": "Variable",
@@ -2312,14 +2507,14 @@
 							"type": {
 								"type": "reflection",
 								"declaration": {
-									"id": 124,
+									"id": 140,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
 									"flags": {},
 									"children": [
 										{
-											"id": 130,
+											"id": 146,
 											"name": "NOTION_DATABASE_ID_EDIT_MEDIA",
 											"kind": 1024,
 											"kindString": "Property",
@@ -2330,7 +2525,7 @@
 											}
 										},
 										{
-											"id": 128,
+											"id": 144,
 											"name": "NOTION_DATABASE_ID_FAQ",
 											"kind": 1024,
 											"kindString": "Property",
@@ -2341,7 +2536,7 @@
 											}
 										},
 										{
-											"id": 129,
+											"id": 145,
 											"name": "NOTION_DATABASE_ID_USER_MANUAL",
 											"kind": 1024,
 											"kindString": "Property",
@@ -2352,7 +2547,7 @@
 											}
 										},
 										{
-											"id": 126,
+											"id": 142,
 											"name": "NOTION_EXTERNAL_SITE_DOMAIN",
 											"kind": 1024,
 											"kindString": "Property",
@@ -2363,7 +2558,7 @@
 											}
 										},
 										{
-											"id": 127,
+											"id": 143,
 											"name": "NOTION_FAQ_LIST_ID",
 											"kind": 1024,
 											"kindString": "Property",
@@ -2374,7 +2569,7 @@
 											}
 										},
 										{
-											"id": 125,
+											"id": 141,
 											"name": "NOTION_TOKEN",
 											"kind": 1024,
 											"kindString": "Property",
@@ -2385,7 +2580,7 @@
 											}
 										},
 										{
-											"id": 133,
+											"id": 149,
 											"name": "PAGE_URL_APP_INFO",
 											"kind": 1024,
 											"kindString": "Property",
@@ -2396,7 +2591,7 @@
 											}
 										},
 										{
-											"id": 134,
+											"id": 150,
 											"name": "PAGE_URL_CONNECT_TO_CAMERA",
 											"kind": 1024,
 											"kindString": "Property",
@@ -2407,7 +2602,7 @@
 											}
 										},
 										{
-											"id": 131,
+											"id": 147,
 											"name": "PAGE_URL_PRIVACY_POLICY",
 											"kind": 1024,
 											"kindString": "Property",
@@ -2418,7 +2613,7 @@
 											}
 										},
 										{
-											"id": 132,
+											"id": 148,
 											"name": "PAGE_URL_TERMS_AND_CONDITIONS",
 											"kind": 1024,
 											"kindString": "Property",
@@ -2434,16 +2629,16 @@
 											"title": "Properties",
 											"kind": 1024,
 											"children": [
-												130,
-												128,
-												129,
-												126,
-												127,
-												125,
-												133,
-												134,
-												131,
-												132
+												146,
+												144,
+												145,
+												142,
+												143,
+												141,
+												149,
+												150,
+												147,
+												148
 											]
 										}
 									]
@@ -2452,7 +2647,7 @@
 							"defaultValue": "..."
 						},
 						{
-							"id": 135,
+							"id": 151,
 							"name": "openList",
 							"kind": 64,
 							"kindString": "Function",
@@ -2468,14 +2663,14 @@
 							],
 							"signatures": [
 								{
-									"id": 136,
+									"id": 152,
 									"name": "openList",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 137,
+											"id": 153,
 											"name": "option",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2483,14 +2678,14 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 138,
+													"id": 154,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"children": [
 														{
-															"id": 139,
+															"id": 155,
 															"name": "title",
 															"kind": 1024,
 															"kindString": "Property",
@@ -2507,7 +2702,7 @@
 															"title": "Properties",
 															"kind": 1024,
 															"children": [
-																139
+																155
 															]
 														}
 													]
@@ -2523,7 +2718,7 @@
 							]
 						},
 						{
-							"id": 140,
+							"id": 156,
 							"name": "openWeb",
 							"kind": 64,
 							"kindString": "Function",
@@ -2539,14 +2734,14 @@
 							],
 							"signatures": [
 								{
-									"id": 141,
+									"id": 157,
 									"name": "openWeb",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 142,
+											"id": 158,
 											"name": "option",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2554,14 +2749,14 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 143,
+													"id": 159,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"children": [
 														{
-															"id": 144,
+															"id": 160,
 															"name": "title",
 															"kind": 1024,
 															"kindString": "Property",
@@ -2578,7 +2773,7 @@
 															"title": "Properties",
 															"kind": 1024,
 															"children": [
-																144
+																160
 															]
 														}
 													]
@@ -2599,15 +2794,15 @@
 							"title": "Variables",
 							"kind": 32,
 							"children": [
-								123
+								139
 							]
 						},
 						{
 							"title": "Functions",
 							"kind": 64,
 							"children": [
-								135,
-								140
+								151,
+								156
 							]
 						}
 					],
@@ -2620,7 +2815,7 @@
 					]
 				},
 				{
-					"id": 4,
+					"id": 20,
 					"name": "default",
 					"kind": 1024,
 					"kindString": "Property",
@@ -2628,7 +2823,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 5,
+							"id": 21,
 							"name": "__type",
 							"kind": 65536,
 							"kindString": "Type literal",
@@ -2642,29 +2837,29 @@
 					"title": "Namespaces",
 					"kind": 4,
 					"children": [
-						27,
-						34,
-						39,
-						51,
-						57,
-						63,
-						88,
-						95,
-						145,
-						98,
-						105,
-						109,
-						113,
-						118,
-						120,
-						122
+						43,
+						50,
+						55,
+						67,
+						73,
+						79,
+						104,
+						111,
+						161,
+						114,
+						121,
+						125,
+						129,
+						134,
+						136,
+						138
 					]
 				},
 				{
 					"title": "Properties",
 					"kind": 1024,
 					"children": [
-						4
+						20
 					]
 				}
 			],
@@ -2683,7 +2878,7 @@
 			"kind": 2,
 			"children": [
 				1,
-				3
+				19
 			]
 		}
 	]
